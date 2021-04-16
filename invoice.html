@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Our School | All in One Platform</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta content="Our School | All in One Platform" name="description" />
+        <meta content="Tazel" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <script src="assets/js/modernizr.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+		 <script>
+// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDPxzRphQsg1OGwCmkfBSAvTSUMo5ulptA",
+    authDomain: "myproject1-8ea79.firebaseapp.com",
+    projectId: "myproject1-8ea79",
+    storageBucket: "myproject1-8ea79.appspot.com",
+    messagingSenderId: "434184118827",
+    appId: "1:434184118827:web:9c751a5ba5c7fead2a406e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container-fluid">
+
+                    <!-- Logo container-->
+                    <div class="logo">
+                        <!-- Text Logo -->
+                        <!--<a href="index.html" class="logo">-->
+                            <!--<span class="logo-small"><i class="mdi mdi-radar"></i></span>-->
+                            <!--<span class="logo-large"><i class="mdi mdi-radar"></i> Adminto</span>-->
+                        <!--</a>-->
+                        <!-- Image Logo -->
+                        <a href="index.html" class="logo">
+                           <img src="assets/images/logo-light-footer.gif" alt="" height="26" class="logo-small">
+                            <img src="assets/images/logo-light-footer.gif" alt="" height="24" class="logo-large">
+                        </a>
+                    </div>
+                    <!-- End Logo container-->
+
+                    <div class="menu-extras topbar-custom">
+
+                        <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                            <li class="menu-item">
+                             <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+                          
+                            <li>
+                                <!-- Notification -->
+                               
+                                <!-- End Notification bar -->
+                            </li>
+
+                      
+
+                        </ul>
+                    </div>
+                    <!-- end menu-extras -->
+
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+            <div class="navbar-custom">
+                <div class="container-fluid">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                        <ul class="navigation-menu">
+                            <li class="has-submenu">
+                                <a href="index.html"><i class="mdi mdi-view-dashboard"></i> <span> Dashboard </span> </a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#"><i class="mdi mdi-invert-colors"></i> <span>Info Table </span> </a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="contactsTable.html">Contacts</a></li>
+                                            <li><a href="paymentTable.html">Pyment</a></li>
+                                            <li><a href="editable.html">Editable</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="treeview.html"><i class="mdi mdi-texture"></i><span> Tree View </span> </a>
+                               
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="editor.html"><i class="mdi mdi-view-list"></i> <span> Editor </span> </a>
+                               
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="taskboard.html"><i class="mdi mdi-chart-donut-variant"></i><span> Taskboard </span> </a>
+                                
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="inbox.html"><i class="mdi mdi-google-pages"></i><span> Mailbox </span> </a>
+                               
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="mdi mdi-layers"></i><span>Elements </span> </a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="invoice.html">Invoice</a></li>
+                                           
+                                            <li><a href="calendar.html" >Calendar</a></li>
+											      <li><a href="maintenance.html">Maintenance</a></li>
+												   <li><a href="maps.html">Maps</a></li>
+                                  
+                                        </ul>
+                                    </li>
+                                  
+                                </ul>
+                            </li>
+							
+							 <li class="has-submenu">
+                                <a href="#"><i class="mdi mdi-invert-colors"></i> <span>Account </span> </a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="login/index.html">Login</a></li>
+                                            <li><a href="register.html">Signup</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- End navigation menu -->
+                    </div> <!-- end #navigation -->
+                </div> <!-- end container -->
+            </div> <!-- end navbar-custom -->
+        </header>
+        <!-- End Navigation Bar-->
+
+
+        <div class="wrapper">
+            <div class="container-fluid">
+
+                <!-- Page-Title -->
+              
+                <!-- end page title end breadcrumb -->
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-box">
+                            <!-- <div class="panel-heading">
+                                <h4>Invoice</h4>
+                            </div> -->
+                            <div class="panel-body">
+                                <div class="clearfix">
+                                    <div class="pull-left">
+                                        <h3 class="logo">Our School</h3>
+                                    </div>
+                                    <div class="pull-right">
+                                        <h4>Sl. # <br>
+                                            <strong>2021-04-23654789</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <div class="pull-left m-t-30">
+                                            <address>
+                                                <strong>Our School</strong><br>
+                                                Jhangirnagar University<br>
+                                                Savar, Dhaka-1343<br>
+                                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                                            </address>
+                                        </div>
+                                        <div class="pull-right m-t-30">
+                                            <p><strong>Print Date: </strong> July 17, 2021</p>
+                                             <p class="m-t-10"><strong>Print ID: </strong> #123456</p>
+                                        </div>
+                                    </div><!-- end col -->
+                                </div>
+                                <!-- end row -->
+
+                                <div class="m-h-50"></div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table m-t-30">
+                                                <thead>
+                                                <tr><th>Sl.</th>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>Phone</th>
+                                                    <th>Institution</th>
+                                                    <th>Message</th>
+                                                </tr></thead>
+                                                <tbody id="tbody">
+                                                
+                                                </tbody>
+                                            </table>
+											<script>
+// Reference messages collection
+//var messagesRef = firebase.database().ref('contacts');
+
+// get data
+ function SelectAllData(){
+firebase.database().ref('paymentInfo').once('value',
+function(AllRecords){
+AllRecords.forEach(
+function(CurrentRecord){
+var name = CurrentRecord.val().name;
+var email = CurrentRecord.val().email;
+var phone = CurrentRecord.val().phone;
+var company = CurrentRecord.val().company;
+var message = CurrentRecord.val().message;
+AddItemsToTable(name, email, phone, company,message);
+}
+);
+});
+}
+window.onload= SelectAllData;
+
+// fill table
+var stdNo=0;
+function AddItemsToTable(name, email, phone, company,message){
+
+var  tbody= document.getElementById('tbody');
+var  trow= document.createElement('tr');
+var  td1= document.createElement('td');
+var  td2= document.createElement('td');
+var  td3= document.createElement('td');
+var  td4=document.createElement('td');
+var  td5= document.createElement('td');
+var  td6= document.createElement('td');
+td1.innerHTML =++stdNo;
+td2.innerHTML=name;
+td3.innerHTML=email;
+td4.innerHTML=phone;
+td5.innerHTML=company;
+td6.innerHTML=message;
+trow.appendChild(td1);
+trow.appendChild(td2);
+trow.appendChild(td3);
+trow.appendChild(td4);
+trow.appendChild(td5);
+trow.appendChild(td6);
+tbody.appendChild(trow);
+trow.appendChild(td1);trow.appendChild(td2);trow.appendChild(td3);trow.appendChild(td4);trow.appendChild(td5);trow.appendChild(td6);
+
+}
+								</script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-6">
+                                        <div class="clearfix m-t-40">
+                                            <h5 class="small text-inverse font-600">TERMS AND POLICIES</h5>
+
+                                            <small>
+                                                All accounts are to be paid within 7 days from receipt of
+                                                invoice. To be paid by cheque or credit card or direct payment
+                                                online. If account is not paid within 7 days the credits details
+                                                supplied as confirmation of work undertaken will be charged the
+                                                agreed quoted fee noted above.
+                                            </small>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-6 offset-xl-3">
+                                        <p class="text-right"><b>Thaks From</b></p>
+                                        
+                                        <hr>
+                                        <h3 class="text-right">"Our School"</h3>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-print-none">
+                                    <div class="pull-right">
+                                        <a href="javascript:window.print()" class="btn btn-inverse waves-effect waves-light"><i class="fa fa-print"></i></a>
+                                        
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- end row -->
+
+
+            </div> <!-- end container -->
+
+
+            <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        2021 © Tazel Hossan
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+    </body>
+</html>
